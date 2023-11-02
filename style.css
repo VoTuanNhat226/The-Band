@@ -16,9 +16,6 @@ html {
     left: 0;
     z-index: 1000;
 }
-#nav {
-
-}
 #nav li{
     display: inline-block;
     position: relative;
@@ -92,41 +89,83 @@ html {
 #slider .text-heading {
     padding: 24px 0;
 }
-#content {
-    width: 800px;
+.content .heading{
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+.content .sub-heading {
+    text-align: center;
+    opacity: 0.6;
+    font-style: italic;
+    margin: 15px 0;
+}
+.content > div {
+    padding: 50px 0;
+}
+.theBand {
+    width: 50%;
     margin: 0 auto;
     padding: 64px 0;
-    text-align: center;
 }
-#content .heading {
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 12px;
-}
-#content .subHeading {
-    margin: 24px 0;
-    font-size: 15px;
-    color: #b1b1b1;
-}
-#content .theband-description {
+.theBand .theBand-content {
     text-align: justify;
     line-height: 1.4;
 }
-.theband {
-    padding: 40px 0;
-}
-.theband .card {
+.theBand .member-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 60px;
+    padding: 32px 0;
 }
-.card img {
-    width: 200px;
-    margin-top: 30px;
+.theBand .member-card p{
+    text-align: center;
 }
-.tourdates {
-    color: #ffffff;
+.theBand .card {
+    border: none;
+}
+.tourDate {
     background-color: #000;
-    width: 100%;
+    color: white;
+}
+.book-ticket {
+    background-color: white;
+    color: #000;
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+.book-ticket li {
+    padding: 8px 16px;
+    opacity: 0.8;
+    border-bottom: 1px solid gray;
+}
+.book-ticket li span {
+    color: white;
+    background-color: #ff1100;
+    margin-left: 16px;
+    padding: 2px 4px;
+}
+.book-ticket li .quantity {
+    float: right !important;
+    color: white;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 0 8px;
+}
+.place-list {
+    padding: 32px 0;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.place-list .card {
+    color: #000;
+}
+.place-list .card img:hover {
+    opacity: 0.6;
 }
