@@ -41,6 +41,7 @@ html {
     left: 0;
 }
 #nav > li:hover .subnav {
+    padding: 0;
     display: block;
 }
 .subnav li {
